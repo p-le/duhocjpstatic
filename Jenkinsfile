@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'ln -nsf "$(pwd)" /var/www/duhocjp'
+        sh 'sudo ln -nsf "$(pwd)" /var/www/duhocjp'
       }
     }
   }
